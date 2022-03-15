@@ -1,0 +1,44 @@
+
+main {
+    width: 96%;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 13px;
+}
+
+html, body {
+    background-color: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #404040;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.column {
+    width:98%;
+    display: block;
+}
+
+@media screen and (min-width:680px) {
+    .column {
+        width:32%;
+        display: inline-block;
+    }    
+}
